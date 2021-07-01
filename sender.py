@@ -9,7 +9,7 @@ from time import sleep
 from selenium.common.exceptions import NoSuchElementException  
 import pandas as pd
 
-## Function to check wether a particular element exists
+## Function to check wether a particular element exists 
 def check_exists_by_xpath(xpath):
     try:
         driver.find_element_by_xpath(xpath)
@@ -82,7 +82,3 @@ for name in names_list:
 ## Quit the chrome driver
 sleep(5)
 driver.quit()
-
-
-
-
